@@ -19,7 +19,7 @@ public class LinkedList {
 		newNode.setNext(null);
 		if (head == null) {
 			head = newNode;
-		} else {
+		} elseff {
 			Node currentNode = head;
 			while (currentNode.getNext() != null) {
 				currentNode = currentNode.getNext();
