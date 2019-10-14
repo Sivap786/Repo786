@@ -31,7 +31,7 @@ public class LinkedList {
 	public void printLinkedList() {
 		Node n = head;// Start Iteration from Head
 		while (n != null) {
-			#Test
+			//Test
 			System.out.print(n.getData() + "->");
 			n = n.getNext();
 		}
