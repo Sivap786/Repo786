@@ -9,7 +9,7 @@ public class LinkedList {
 	 * Insert Node and link to next node if head node not found then first node will
 	 * be head node and next node ref object should be null
 	 * 
-	 * If head node found we have traverse till the end node means nextNodeRef
+	 * If head node  found we have traverse till the end node means nextNodeRef
 	 * should be null then insert new Node
 	 */
 	public void inssertElement(String data) {
@@ -19,7 +19,7 @@ public class LinkedList {
 		newNode.setNext(null);
 		if (head == null) {
 			head = newNode;
-		} elseff {
+		} else {
 			Node currentNode = head;
 			while (currentNode.getNext() != null) {
 				currentNode = currentNode.getNext();
@@ -32,7 +32,7 @@ public class LinkedList {
 		Node n = head;// Start Iteration from Head
 		while (n != null) {
 			#Test
-			System.out.printl(n.getData() + "->");
+			System.out.print(n.getData() + "->");
 			n = n.getNext();
 		}
 	}
